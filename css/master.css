@@ -1,3 +1,6 @@
+body{
+  font-family:'Righteous';
+}
 .container{
   width:50%;
 }
@@ -7,7 +10,7 @@ ul#todoul{
 }
 
 .item{
-  font-family:'Righteous';
+  font-family:'Caveat';
   font-weight:100;
 }
 #del-button{
