@@ -1,0 +1,20 @@
+.container{
+  width:50%;
+}
+ul#todoul{
+  list-style-type: upper-roman;
+  margin-left:1.3rem;
+}
+
+.item{
+  font-family:'Righteous';
+  font-weight:100;
+}
+#del-button{
+  margin-left:1rem;
+  margin-top:2px;
+}
+
+#del-button:hover{
+  background-color: red;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  </head>
+  <body>
+
+
+    <section class='section'>
+      <div class="container">
+        <div class="box">
+          <form id='form' action="#">
+            <div class="field">
+              <label class="label">Label</label>
+              <div class="control">
+                <input class="input" id='input' type="text" placeholder="Text input">
+              </div>
+              <p class="help">Put your todo text here</p>
+            </div>
+            <div class="control">
+              <button class="button is-primary" id='addtodo'>Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </section>
+    <section class='hero'>
+      <div class="container">
+        <div class="box">
+          <h1 class='title is-1'>
+            To-do List
+          </h1>
+          <div id = 'todoul'>
+        </div>
+      </div>
+    </section>
+
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src='./js/master.js'></script>
+  </body>
+</html>
