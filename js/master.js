@@ -11,6 +11,7 @@ $('#addtodo').click(function(){
     +'</div>'
     +'</div>'
   ).appendTo($('#todoul')[0]);
+  $('input')[0].value='';
 }
 // console.log($('#todoul #del-button'));
 });
